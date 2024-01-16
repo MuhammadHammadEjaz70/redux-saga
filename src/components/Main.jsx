@@ -2,6 +2,7 @@ import { addToCart, emptyCart, removeFromCart } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
 import { productListing } from "../redux/productAction";
 import { useEffect } from "react";
+
 function Main() {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.productData);
